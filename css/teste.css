@@ -1,0 +1,27 @@
+.container{
+  background: #CCC;
+  height: 500px;
+  display: flex;
+  flex-direction: column; /*padrão */
+  flex-wrap:  nowrap; /*padrão */
+  justify-content: flex-start; /*alinhamento horizontyal */
+  align-items: stretch;
+  align-content: flex-start;
+
+
+}
+
+.item{
+  background: #333;
+  color: #fff;
+  padding: 20px;
+  margin: 5px;
+  width: 30px;
+  height: 30px;
+}
+
+
+.artigo-01{order: 3;}
+.artigo-02{order: 1; align-self:stretch;}
+.artigo-03{order: 2;}
+.artigo-04{order: 4;}
